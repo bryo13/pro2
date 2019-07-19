@@ -1,0 +1,74 @@
+.div_one, .div_two,.div_three{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div_one{
+    background-image: url("../images/three.jpg");
+    min-height: 680px;
+}
+
+.text_one{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #282e28;
+}
+
+.div_two{
+    background-image: url("../images/two.jpg");
+    min-height: 400px;
+}
+
+.text_two{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.div_three{
+    background-image: url("../images/three.jpg");
+    min-height: 360px;
+}
+
+.text_one, .text_two, .text-three{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width:568px){
+    .div_one, .div_two, .div_three{
+        background-attachment: scroll;
+    }
+}
