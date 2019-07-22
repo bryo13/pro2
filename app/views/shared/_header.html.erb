@@ -10,7 +10,6 @@
       <%= link_to "Home", root_path, class: "navbar-brand" %>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
        
@@ -18,8 +17,8 @@
           <li><%= link_to "Account", "#" %></li>
           <li><%= link_to "Sign Out","#",method: :delete,data:[:confirm,"Are you sure?"]%>
         
-          <li><%= link_to "Sign Up", "#", class: "active" %></li>
-          <li><%= link_to "Sign In", "#", class: "active" %></li>
+          <li><%= link_to "Sign Up", signup_path, class: "active" %></li>
+          <li><%= link_to "Sign In", login_path, class: "active" %></li>
           <li><%= link_to 'Administration',"#"%></li>
     
       </ul>
