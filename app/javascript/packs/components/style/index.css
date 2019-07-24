@@ -72,3 +72,23 @@
         background-attachment: scroll;
     }
 }
+
+@font-face {
+    font-family: 'Androgyne_TB';
+   src: url('/app/javascript/packs/components/fonts/Androgyne_TB.otf')
+ }
+ 
+ @font-face {
+    font-family: 'RalliankaraPersonalUseOnly-Z60m';
+    src: url('/app/javascript/packs/components/fonts/RalliankaraPersonalUseOnly-3v4L.ttf')
+ }
+ 
+ 
+ .text_one,.text_two,.text-three,.section,.section-light{
+     font-family: Androgyne_TB;
+ }
+ 
+ h1,h2,h3,h4{
+     text-align: center;
+     font-family: RalliankaraPersonalUseOnly-Z60m
+ }
