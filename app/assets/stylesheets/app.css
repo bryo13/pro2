@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'Androgyne_TB';
+  /*  src: url('/public/fonts/Androgyne_TB.otf')
+ */}
+ 
+ @font-face {
+    font-family: 'RalliankaraPersonalUseOnly-Z60m';
+    /*src: url('/public/fonts/RalliankaraPersonalUseOnly-Z60m.ttf')
+ */}
+ 
+ 
+ body{
+     font-family: Androgyne_TB;
+ }
+ 
+ h1,h2,h3,h4{
+     text-align: center;
+     font-family: RalliankaraPersonalUseOnly-Z60m
+ }
